@@ -14,6 +14,7 @@ class Dog
 def self.print_all
  @@all.each do |puppies|
    binding.pry
+ end
 end
 
  def self.clear_all
