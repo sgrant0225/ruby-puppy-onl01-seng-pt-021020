@@ -22,6 +22,7 @@ def self.print_all
    @@all.each do |puppies|
      puts puppies.name
    end
+ end
    
    def save
      @@all << self
