@@ -12,13 +12,13 @@ class Dog
   @@all
  end
  
+
+
 def self.print_all
    @@all.each do |puppies|
      puts puppies.name
 end
 
-# def self.clear_all
-#   @@all.clear
-#   end
+# 
  end
 end
