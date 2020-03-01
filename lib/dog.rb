@@ -28,4 +28,3 @@ def self.print_all
      @@all << self
    end
  end
-end
